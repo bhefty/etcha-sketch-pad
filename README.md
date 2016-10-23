@@ -1,5 +1,11 @@
 #Project: Javascript/jQuery
 
+## How to use:
+Enter a number in the box and press submit to generate a grid. If the number entered cannot render a perfect square, it will return an error.
+
+Use your mouse to 'color' the grid. A randomly generated color will be placed at your current grid location. Each successive passover of that grid will result in a different color at a higher opacity level.
+
+## Goals:
 In this project, you'll get a chance to actually build a pretty nifty tool to flex your Javascript and jQuery muscles. Build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 1. Create a web page (or use JSFiddle) with a 16x16 grid of square divs.
