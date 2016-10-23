@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Etch-A-Sketch Pad</title>
+    <link rel="stylesheet" href="./styles/reset.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./styles/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./styles/index.css" media="screen" title="no title">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Etch-A-Sketch Pad!</h1>
+      <!-- <form> -->
+        <div class="form-group">
+          <label for="gridSize">Please enter a grid size:</label>
+          <input id="gridSize" type="number" name="gridSize" value="16">
+          <button id="submit" type="submit" class="btn btn-primary" name="Submit">Submit</button>
+          <button id="reset" type="reset" class="btn btn-danger" name="Reset">Reset</button>
+        </div>
+
+      <!-- </form> -->
+
+      <div class="container">
+          <table id="grid-container">
+
+          </table>
+      </div>
+    </div>
+
+
+
+    <script src="./scripts/jquery.js" charset="utf-8"></script>
+    <script src="./scripts/index.js" charset="utf-8"></script>
+  </body>
+</html>
